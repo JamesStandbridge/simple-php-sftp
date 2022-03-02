@@ -4,7 +4,7 @@
  * @author James Standbridge <james.standbridge.git@gmail.com>
  */
 
-namespace James\SimpleSFTP\sftp;
+namespace JamesStandbridge\SimpleSFTP\sftp;
 
 
 class StrTest

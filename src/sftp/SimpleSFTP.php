@@ -4,12 +4,12 @@
  * @author James Standbridge <james.standbridge.git@gmail.com>
  */
 
-namespace James\SimpleSFTP\sftp;
+namespace JamesStandbridge\SimpleSFTP\sftp;
 
 use phpseclib3\Net\SFTP;
-use James\SimpleSFTP\sftp\Exception\SFTPHostAuthentificationFailed;
-use James\SimpleSFTP\sftp\Exception\SFTPHostNoResponse;
-use James\SimpleSFTP\sftp\StrTest;
+use JamesStandbridge\SimpleSFTP\sftp\Exception\SFTPHostAuthentificationFailed;
+use JamesStandbridge\SimpleSFTP\sftp\Exception\SFTPHostNoResponse;
+use JamesStandbridge\SimpleSFTP\sftp\StrTest;
 
 use \DateTime;
 use \DateInterval;

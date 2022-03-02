@@ -4,7 +4,7 @@
  * @author James Standbridge <james.standbridge.git@gmail.com>
  */
 
-namespace James\SimpleSFTP\sftp\Exception;
+namespace JamesStandbridge\SimpleSFTP\sftp\Exception;
 
 use Exception;
 
