@@ -1,10 +1,10 @@
 {
-    "name": "james/simple-php-sftp",
+    "name": "jamesstandbridge/simple-php-sftp",
     "description": "PHP - SFTP middleware",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "James\\SimpleSFTP\\": "src/"
+            "JamesStandbridge\\SimpleSFTP\\": "src/"
         }
     },
     "authors": [
