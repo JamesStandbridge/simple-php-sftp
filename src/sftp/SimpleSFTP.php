@@ -157,9 +157,10 @@ class SimpleSFTP
 		return true;
 	}
 
-	public function get(string $remote_file, string $local_file)
+	public function get(string $remote_file, string $local_file): string
 	{
-		return $this->connection->get($remote_file, $local_file);
+		$this->connection->get($remote_file, $local_file);
+		return $remote_file;
 	}
 
 	private function recursive_delete(string $filename, string $currentPosition)
