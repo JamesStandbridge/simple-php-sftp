@@ -1,0 +1,23 @@
+{
+    "name": "james/simple-php-sftp",
+    "description": "PHP - SFTP middleware",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "James\\SimpleSFTP\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jamesstandbridge",
+            "email": "james.standbridge.git@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpseclib/phpseclib": "dev-master"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "5.4.x-dev"
+    }
+}
