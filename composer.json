@@ -13,7 +13,6 @@
             "email": "james.standbridge.git@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "phpseclib/phpseclib": "dev-master"
     },
